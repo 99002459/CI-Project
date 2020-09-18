@@ -27,13 +27,13 @@ int main() {
 
 /* Add your test functions in this format for testing*/
   CU_add_test(suite, "triangle_area", test_area_triangle);
-  CU_add_test(suite, "triangle_per", test_peri_triangle);
+  CU_add_test(suite, "triangle_peri", test_peri_triangle);
   CU_add_test(suite, "square_area", test_area_square);
-  CU_add_test(suite, "square_per", test_peri_square);
+  CU_add_test(suite, "square_peri", test_peri_square);
   CU_add_test(suite, "rectangle_area", test_area_rectangle);
-  CU_add_test(suite, "rectangle_per", test_peri_rectangle);
+  CU_add_test(suite, "rectangle_peri", test_peri_rectangle);
   CU_add_test(suite, "circle_area", test_area_circle);
-  CU_add_test(suite, "circle_per", test_peri_circle);
+  CU_add_test(suite, "circle_peri", test_peri_circle);
 
 
 /* Note: Do not edit START*/
@@ -58,10 +58,10 @@ void test_area_rectangle(void){
   CU_ASSERT(50 == rectangle_area(8,9));
 }
 void test_peri_rectangle(void){
-  CU_ASSERT(36 == rectangle_per(12,6));
+  CU_ASSERT(36 == rectangle_peri(12,6));
 
   /* Dummy fail*/
-  CU_ASSERT(50 == rectangle_per(18,10));
+  CU_ASSERT(50 == rectangle_peri(18,10));
 }
 void test_area_square(void) {
   CU_ASSERT(25 == square_area(5));
@@ -71,10 +71,10 @@ void test_area_square(void) {
 }
 
 void test_peri_square(void) {
-  CU_ASSERT(12== square_per(3));
+  CU_ASSERT(12== square_peri(3));
 
   /* Dummy fail*/
-  CU_ASSERT(30 == square_per(12));
+  CU_ASSERT(30 == square_peri(12));
 }
 void test_area_circle(void){
   CU_ASSERT(314 == circle_area(10));
@@ -83,10 +83,10 @@ void test_area_circle(void){
   CU_ASSERT(30 == circle_area(12));
 }
 void test_peri_circle(void){
-  CU_ASSERT(62 == circle_per(10));
+  CU_ASSERT(62 == circle_peri(10));
 
   /* Dummy fail*/
-  CU_ASSERT(30 == circle_per(6));
+  CU_ASSERT(30 == circle_peri(6));
 }
 void test_area_triangle(void){
   CU_ASSERT(39 == triangle_area(8, 10, 12));
@@ -96,9 +96,9 @@ void test_area_triangle(void){
 }
 
 void test_peri_triangle(void) {
-  CU_ASSERT(15 == triangle_per(4,5,6));
+  CU_ASSERT(15 == triangle_peri(4,5,6));
 
   /* Dummy fail*/
-  CU_ASSERT(50 == triangle_per(20, 25, 28));
+  CU_ASSERT(50 == triangle_peri(20, 25, 28));
 }
 
