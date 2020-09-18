@@ -6,11 +6,11 @@ BUILD = build
 
 # All source code files
 SRC = main.c\
-src/shape_math.c\
+src/shapes_math.c\
 
 # All test source files
-TEST_SRC = src/shape_math.c\
-test/test_shape_math.c
+TEST_SRC = src/shapes_math.c\
+test/test_shapes_math.c
 
 TEST_OUTPUT = $(BUILD)/Test_$(PROJECT_NAME).out
 
