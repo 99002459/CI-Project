@@ -4,7 +4,7 @@
 /* Modify these two lines according to the project */
 #include <shape_math.h>
 #include<math.h>
-#define PROJECT_NAME    "shape_math"
+#define PROJECT_NAME    "Shapes"
 
 /* Prototypes for all the test functions */
 void test_area_triangle(void);
