@@ -17,7 +17,7 @@ int circle_area(int radius)
      return pi*radius*radius;
 }
 
-int circle_perim(int radius)
+int circle_peri(int radius)
 {
      return 2*pi*radius;
 }
