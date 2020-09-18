@@ -38,4 +38,5 @@ int triangle(int side1,int side2, int side3)
     prod=semi*(semi-side1)*(semi-side2)*(semi-side3);
     area=sqrt(prod);
     perimeter=side1+side2+side3;
+    return 0;
 }
