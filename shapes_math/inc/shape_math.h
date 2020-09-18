@@ -4,7 +4,6 @@
 
 #include <stdio.h>
 #include <stdlib.h>
-#include <stdio_ext.h>
 #include <math.h>
 
 int rectangle(int len_rect, int bred_rect);
