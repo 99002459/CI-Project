@@ -15,28 +15,22 @@ int main()
     */
     
     scanf("%d", &number);
-
-    if(EXIT == number)
-    {
-        exit(0);
-    }
-
-    if(number>0 && number<8)
+    if((number>0)&&(number<6))
     { 
-        switch(number)
-    {
+       switch(number)
+        {
         case 1:
             scanf("%d %d", &len, &bred);
             rect_area=rectangle_area(len,bred);
             rect_peri=rectangle_peri(len,bred);    
             break;
         case 2:
-            scanf("%d ", &side);
+            scanf("%d", &side);
             sqr_area=square_area(side); 
             sqr_peri=square_peri(side);
             break;
         case 3:
-            scanf("%d ", &rad);
+            scanf("%d", &rad);
             circ_area=circle_area(rad);
             circ_peri=circle_peri(rad);
             break;
@@ -49,6 +43,6 @@ int main()
             exit(0);
             break;
 
-    }
+      }
     
 }
