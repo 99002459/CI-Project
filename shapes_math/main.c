@@ -13,7 +13,7 @@ int main()
     printf("5. Exit\n");
     printf("Select option from the menu: \n");
     */
-     __fpurge(stdin);
+    
     scanf("%d", &number);
 
     if(EXIT == number)
@@ -50,13 +50,5 @@ int main()
             break;
 
     }
-    else
-    {
-        printf("\n\t---Wrong choice---\nEnter to continue\n");
-        __fpurge(stdin);
-        getchar();
-        return;
-
-    }
-
+    
 }
