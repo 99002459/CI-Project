@@ -9,8 +9,7 @@ int main()
     printf("1. Calculating area of Rectangle\n");
     printf("2. Calculations on Square\n");
     printf("3. Calculations on Circle\n");
-    printf("4. Calculations on Triangle\n");
-    printf("5. Exit\n");
+    printf("4. Calculations on Triangle\n");    
     printf("Select option from the menu: \n");
     */
     
@@ -39,8 +38,7 @@ int main()
             tri_area=triangle_area(side1,side2,side3);
             tri_peri=triangle_peri(side1,side2,side3);
             break;
-        case 5:
-            exit(0);
+       default: 
             break;
 
       }
