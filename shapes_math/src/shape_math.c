@@ -1,7 +1,7 @@
 
 #include "shape_math.h"
 
-#define pi 3.14159
+#define pi 3.14
 
 int rectangle_area(int len_rect, int bred_rect)
 {
