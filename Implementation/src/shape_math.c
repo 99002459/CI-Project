@@ -140,7 +140,7 @@ int getReverse(int operand1) {
   }
    
 
-int getSumOfDigits(int operand1){
+int getSumOfDigits(int operand1){}
     int sum = 0;
     while(operand1!= 0){
         sum =sum + operand1%10;
