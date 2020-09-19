@@ -51,7 +51,7 @@ int evenodd(int operand1)
 	return result;
 }
 
-int isevenorodd(int operand1)
+int iseven_odd(int operand1)
 {
 	if(operand1%2==0)
 		return 1;
