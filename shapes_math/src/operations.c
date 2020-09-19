@@ -24,14 +24,15 @@ int divide(int operand1, int operand2)
         return operand1 / operand2;
 }
 
-
-int prime(int operand1)
+int mod(operand1, int operand2)
 {
-  int result = isprime(operand1);
-  return result;
+    if(0 == operand2)
+        return 0;
+    else
+        return operand1 % operand2;
 }
 
-int isprime(int operand1)
+int is_prime(int operand1)
 {
 	int i;
    for(i=2;i<operand1;i++)
@@ -45,13 +46,7 @@ int isprime(int operand1)
   return 1;
 }
 
-int evenodd(int operand1)
-{
-	int result= isevenorodd(operand1);
-	return result;
-}
-
-int iseven_odd(int operand1)
+int is_even_odd(int operand1)
 {
 	if(operand1%2==0)
 		return 1;
