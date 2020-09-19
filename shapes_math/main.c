@@ -1,6 +1,6 @@
 #include<stdio.h>
 #include "shape_math.h"
-#include "operations.h"
+
 
 int main()
 {
