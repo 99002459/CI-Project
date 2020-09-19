@@ -5,13 +5,13 @@ int main()
 {
     int number,len,bred,side,rad,side1,side2,side3;
     float rect_area, rect_peri, circ_peri, circ_area,sqr_area,sqr_peri,tri_area, tri_peri;
-    /*printf("Menu:\n");
+    printf("Menu:\n");
     printf("1. Calculating area of Rectangle\n");
     printf("2. Calculations on Square\n");
     printf("3. Calculations on Circle\n");
     printf("4. Calculations on Triangle\n");    
     printf("Select option from the menu: \n");
-    */
+    
     
     scanf("%d",&number);
     if((number>0)&&(number<6))
