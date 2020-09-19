@@ -35,7 +35,7 @@ int triangle_area(int side1,int side2, int side3)
     int semi,prod,area;
     semi=(side1+side2+side3)/2;
     prod=semi*(semi-side1)*(semi-side2)*(semi-side3); 
-    area=sqrt(prod)
+    area=sqrt(prod);
     return area;
 }
 int triangle_peri(int side1,int side2, int side3)
