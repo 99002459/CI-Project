@@ -131,10 +131,10 @@ int zero(int operand1)
 }
 
 int getReverse(int operand1) {
-    int r = 0;
-    while (num > 0) {
-        r = (r * 10) + (num % 10);
-        num = num / 10;
+    int r=0;
+    while (operand1>0) {
+        r=(r*10)+(operand1%10);
+        operand1=operand1/10;
     }
     return r;
   }
@@ -142,9 +142,9 @@ int getReverse(int operand1) {
 
 int getSumOfDigits(int operand1){
     int sum = 0;
-    while(num != 0){
-        sum = sum + num%10;
-        num = num/10; 
+    while(operand1!= 0){
+        sum =sum + operand1%10;
+        operand1= operand1/10; 
     }
     return sum;
 }
