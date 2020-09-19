@@ -2,7 +2,12 @@
 
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/f0742b91af584617860d9a6ab4ce7df6)](https://app.codacy.com/manual/99002459/CI-Project?utm_source=github.com&utm_medium=referral&utm_content=99002459/CI-Project&utm_campaign=Badge_Grade_Dashboard)
 
-This project includes all kinds of operations when a the type of shape and dimensions of the shape is provided.
+This project is a multifile program to perform multiple mathematical operations on different shapes.
+Available shapes are
+* Rectangle
+* Square
+* Circle
+* Triangle
 
 
 
