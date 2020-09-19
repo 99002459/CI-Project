@@ -6,7 +6,7 @@ int main()
 {
     int number,len,bred,side,rad,side1,side2,side3;
     int rect_area, rect_peri, circ_peri, circ_area,sqr_area,sqr_peri,tri_area, tri_peri;
-    int num_add,num_sub,num_mul,num_div,num_mod,if_prime,if_even,fact,if_pos,if_neg,if_zero;
+    int num_add,num_sub,num_mul,num_div,num_mod,if_prime,if_even,fact,if_pos,if_neg,if_zero,rev,sum_dig;
     /*printf("Menu:\n");
     printf("1. Calculating area of Rectangle\n");
     printf("2. Calculations on Square\n");
@@ -41,6 +41,12 @@ int main()
             if_zero=zero(rect_peri);
             fact=factorial(rect_area);
             fact=factorial(rect_peri);
+            rev=getSumOfDigits(rect_area);            
+            sum_dig=getReverse(rect_area);
+            mag=magic(rev,sum_dig,rect_area);    
+            rev=getSumOfDigits(rect_peri);
+            sum_dig=getReverse(rect_peri);
+            mag=magic(rev,sum_dig,rect_peri); 
             break;
         case 2:
             scanf("%d",&side);
