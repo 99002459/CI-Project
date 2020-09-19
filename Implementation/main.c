@@ -69,6 +69,12 @@ int main()
             if_zero=zero(sqr_peri);
             fact=factorial(sqr_area);
             fact=factorial(sqr_peri);
+            rev=getSumOfDigits(sqr_area);            
+            sum_dig=getReverse(sqr_area);
+            mag=magic(rev,sum_dig,sqr_area);    
+            rev=getSumOfDigits(sqr_peri);
+            sum_dig=getReverse(sqr_peri);
+            mag=magic(rev,sum_dig,sqr_peri);    
             break;
         case 3:
             scanf("%d",&rad);
@@ -91,6 +97,12 @@ int main()
             if_zero=zero(circ_peri);
             fact=factorial(circ_area);
             fact=factorial(circ_peri);
+            rev=getSumOfDigits(circ_area);            
+            sum_dig=getReverse(circ_area);
+            mag=magic(rev,sum_dig,circ_area);    
+            rev=getSumOfDigits(circ_peri);
+            sum_dig=getReverse(circ_peri);
+            mag=magic(rev,sum_dig,circ_peri);    
             break;
         case 4:
             scanf("%d %d %d",&side1,&side2,&side3);
@@ -114,7 +126,13 @@ int main()
             if_zero=zero(tri_area);
             if_zero=zero(tri_peri);
             fact=factorial(tri_area);
-            fact=factorial(tri_peri);   
+            fact=factorial(tri_peri);
+            rev=getSumOfDigits(tri_area);            
+            sum_dig=getReverse(tri_area);
+            mag=magic(rev,sum_dig,tri_area);    
+            rev=getSumOfDigits(tri_peri);
+            sum_dig=getReverse(tri_peri);
+            mag=magic(rev,sum_dig,tri_peri);    
             break;
        default:
             printf("\nWrong input");
