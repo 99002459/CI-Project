@@ -28,7 +28,7 @@ int main()
             num_sub=subtract(rect_area,rect_peri);
             num_mul=multiply(rect_area,rect_peri);
             num_div=divide(rect_area,rect_peri);
-            num_mod=divide(rect_area,rect_peri);
+            num_mod=mod(rect_area,rect_peri);
             if_prime=is_prime(rect_area);
             if_prime=is_prime(rect_peri);   
             if_even=is_even_odd(rect_area); 
@@ -50,7 +50,7 @@ int main()
             num_sub=subtract(sqr_area,sqr_peri);
             num_mul=multiply(sqr_area,sqr_peri);
             num_div=divide(sqr_area,sqr_peri);
-            num_mod=divide(sqr_area,sqr_peri);
+            num_mod=mod(sqr_area,sqr_peri);
             if_prime=is_prime(sqr_area);
             if_prime=is_prime(sqr_peri); 
             if_even=is_even_odd(sqr_area); 
@@ -72,7 +72,7 @@ int main()
             num_sub=subtract(circ_area,circ_peri);
             num_mul=multiply(circ_area,circ_peri);
             num_div=divide(circ_area,circ_peri);
-            num_mod=divide(circ_area,circ_peri);
+            num_mod=mod(circ_area,circ_peri);
             if_prime=is_prime(circ_area);
             if_prime=is_prime(circ_peri); 
             if_even=is_even_odd(circ_area); 
@@ -96,7 +96,7 @@ int main()
             num_sub=subtract(tri_area,tri_peri);
             num_mul=multiply(tri_area,tri_peri);
             num_div=divide(tri_area,tri_peri);
-            num_mod=divide(tri_area,tri_peri);
+            num_mod=mod(tri_area,tri_peri);
             if_prime=is_prime(tri_area);
             if_prime=is_prime(tri_peri); 
             if_even=is_even_odd(tri_area); 
