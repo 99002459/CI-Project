@@ -6,7 +6,7 @@ int main()
 {
     int number,len,bred,side,rad,side1,side2,side3;
     int rect_area, rect_peri, circ_peri, circ_area,sqr_area,sqr_peri,tri_area, tri_peri;
-    int num_add,num_sub,num_mul,num_div,num_mod,if_prime,if_even,fact,if_pos,if_neg,if_zero,rev,sum_dig;
+    int num_add,num_sub,num_mul,num_div,num_mod,if_prime,if_even,fact,if_pos,if_neg,if_zero,rev,sum_dig,mag;
     /*printf("Menu:\n");
     printf("1. Calculating area of Rectangle\n");
     printf("2. Calculations on Square\n");
