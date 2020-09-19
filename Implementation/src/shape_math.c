@@ -130,3 +130,28 @@ int zero(int operand1)
 		return 0;
 }
 
+int getReverse(int operand1) {
+    int r = 0;
+    while (num > 0) {
+        r = (r * 10) + (num % 10);
+        num = num / 10;
+    }
+    return r;
+  }
+   
+
+int getSumOfDigits(int operand1){
+    int sum = 0;
+    while(num != 0){
+        sum = sum + num%10;
+        num = num/10; 
+    }
+    return sum;
+}
+int magic(int operand1, int operand2, int operand3){
+	if ((operand1* operand2) == operand3)
+		return 1;
+	else
+		return 0;
+}
+	
