@@ -22,6 +22,8 @@ int factorial(int operand1);
 int positive(int operand1); 
 int negative(int operand1); 
 int zero(int operand1); 
-
+int getReverse(int num);
+int getSumOfDigits(int operand1);
+int magic(int operand1,int operand2,int operand3);
 
 #endif
