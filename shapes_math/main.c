@@ -24,7 +24,7 @@ int main()
             scanf("%d %d",&len,&bred);
             rect_area=rectangle_area(len,bred);
             rect_peri=rectangle_peri(len,bred); 
-            /*num_add=add(rect_area,rect_peri);
+            num_add=add(rect_area,rect_peri);
             num_sub=subtract(rect_area,rect_peri);
             num_mul=multiply(rect_area,rect_peri);
             num_div=divide(rect_area,rect_peri);
@@ -40,13 +40,13 @@ int main()
             if_zero=zero(rect_area);
             if_zero=zero(rect_peri);
             fact=factorial(rect_area);
-            fact=factorial(rect_peri);*/
+            fact=factorial(rect_peri);
             break;
         case 2:
             scanf("%d",&side);
             sqr_area=square_area(side); 
             sqr_peri=square_peri(side);
-            /*num_add=add(rect_area,rect_peri);
+            num_add=add(rect_area,rect_peri);
             num_sub=subtract(sqr_area,sqr_peri);
             num_mul=multiply(sqr_area,sqr_peri);
             num_div=divide(sqr_area,sqr_peri);
@@ -62,13 +62,13 @@ int main()
             if_zero=zero(sqr_area);
             if_zero=zero(sqr_peri);
             fact=factorial(sqr_area);
-            fact=factorial(sqr_peri);*/
+            fact=factorial(sqr_peri);
             break;
         case 3:
             scanf("%d",&rad);
             circ_area=circle_area(rad);
             circ_peri=circle_peri(rad);
-            /*num_add=add(rect_area,rect_peri);
+            num_add=add(rect_area,rect_peri);
             num_sub=subtract(circ_area,circ_peri);
             num_mul=multiply(circ_area,circ_peri);
             num_div=divide(circ_area,circ_peri);
@@ -84,7 +84,7 @@ int main()
             if_zero=zero(circ_area);
             if_zero=zero(circ_peri);
             fact=factorial(circ_area);
-            fact=factorial(circ_peri);*/
+            fact=factorial(circ_peri);
             break;
         case 4:
             scanf("%d %d %d",&side1,&side2,&side3);
